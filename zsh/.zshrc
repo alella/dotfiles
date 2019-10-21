@@ -93,6 +93,7 @@ function paste_from_clipboard() {
 
 
 runonchange () {
+    # For macos - stat -f %m ${filename}
     filename=$1
     run=$2
     echo "Will be running \"$run\" when \"$filename\" changes"
