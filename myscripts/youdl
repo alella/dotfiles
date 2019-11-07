@@ -1,0 +1,41 @@
+#!/bin/python
+
+"""
+
+Reference: https://github.com/ytdl-org/youtube-dl/blob/master/youtube_dl/__init__.py
+"""
+
+from youtube_dl import YoutubeDL
+import sys
+
+ydl_opts = {
+    'outtmpl': '%(title)s.%(ext)s',
+    'postprocessors': [{
+        'key': 'FFmpegVideoConvertor',
+        'preferedformat': 'mp4',
+    }],
+    'quiet': True
+}
+url = sys.argv[1]
+res = '480p'
+
+recon = YoutubeDL({'quiet': True})
+ie = recon.get_info_extractor('Youtube')
+meta = ie.extract(url)
+formats = meta['formats']
+print(meta['title'])
+print(meta['description'])
+
+pref_format = False
+for fmt in formats:
+    if fmt['format_note'] == res:
+        pref_format = fmt['format_id']
+if pref_format:
+    ydl_opts['format'] = pref_format
+else:
+    print("Failed to find {0}".format(res))
+
+with YoutubeDL(ydl_opts) as ydl:
+    ydl.download([url])
+
+print("Done")
