@@ -1,0 +1,388 @@
+[general]
+import = [
+  # uncomment the flavour you want below:
+  #"~/.config/alacritty/catppuccin-mocha.toml"
+  "~/.config/alacritty/nord.toml",
+  #"~/.config/alacritty/rose-pine-dawn.toml",
+  #"~/.config/alacritty/rose-pine-moon.toml",
+  #"~/.config/alacritty/rose-pine.toml",
+]
+[window]
+decorations = "None"
+blur = true
+opacity = 0.7
+
+[font]
+normal = { family = "SauceCodePro Nerd Font Mono", style = "Regular" }
+
+[selection]
+save_to_clipboard = true
+
+[[mouse.bindings]]
+mouse = "Right"
+action = "PasteSelection"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0061"
+mods = "Alt"
+key = "A"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0062"
+mods = "Alt"
+key = "B"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0063"
+mods = "Alt"
+key = "C"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0064"
+mods = "Alt"
+key = "D"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0065"
+mods = "Alt"
+key = "E"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0066"
+mods = "Alt"
+key = "F"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0067"
+mods = "Alt"
+key = "G"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0068"
+mods = "Alt"
+key = "H"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0069"
+mods = "Alt"
+key = "I"
+
+[[keyboard.bindings]]
+chars = "\u001b\u006a"
+mods = "Alt"
+key = "J"
+
+[[keyboard.bindings]]
+chars = "\u001b\u006b"
+mods = "Alt"
+key = "K"
+
+[[keyboard.bindings]]
+chars = "\u001b\u006c"
+mods = "Alt"
+key = "L"
+
+[[keyboard.bindings]]
+chars = "\u001b\u006d"
+mods = "Alt"
+key = "M"
+
+[[keyboard.bindings]]
+chars = "\u001b\u006e"
+mods = "Alt"
+key = "N"
+
+[[keyboard.bindings]]
+chars = "\u001b\u006f"
+mods = "Alt"
+key = "O"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0070"
+mods = "Alt"
+key = "P"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0071"
+mods = "Alt"
+key = "Q"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0072"
+mods = "Alt"
+key = "R"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0073"
+mods = "Alt"
+key = "S"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0074"
+mods = "Alt"
+key = "T"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0075"
+mods = "Alt"
+key = "U"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0076"
+mods = "Alt"
+key = "V"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0077"
+mods = "Alt"
+key = "W"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0078"
+mods = "Alt"
+key = "X"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0079"
+mods = "Alt"
+key = "Y"
+
+[[keyboard.bindings]]
+chars = "\u001b\u007a"
+mods = "Alt"
+key = "Z"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+mods = "Shift"
+key = "Up"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+mods = "Shift"
+key = "Down"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0041"
+mods = "Alt|Shift"
+key = "A"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0042"
+mods = "Alt|Shift"
+key = "B"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0043"
+mods = "Alt|Shift"
+key = "C"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0044"
+mods = "Alt|Shift"
+key = "D"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0045"
+mods = "Alt|Shift"
+key = "E"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0046"
+mods = "Alt|Shift"
+key = "F"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0047"
+mods = "Alt|Shift"
+key = "G"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0048"
+mods = "Alt|Shift"
+key = "H"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0049"
+mods = "Alt|Shift"
+key = "I"
+
+[[keyboard.bindings]]
+chars = "\u001b\u004a"
+mods = "Alt|Shift"
+key = "J"
+
+[[keyboard.bindings]]
+chars = "\u001b\u004b"
+mods = "Alt|Shift"
+key = "K"
+
+[[keyboard.bindings]]
+chars = "\u001b\u004c"
+mods = "Alt|Shift"
+key = "L"
+
+[[keyboard.bindings]]
+chars = "\u001b\u004d"
+mods = "Alt|Shift"
+key = "M"
+
+[[keyboard.bindings]]
+chars = "\u001b\u004e"
+mods = "Alt|Shift"
+key = "N"
+
+[[keyboard.bindings]]
+chars = "\u001b\u004f"
+mods = "Alt|Shift"
+key = "O"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0050"
+mods = "Alt|Shift"
+key = "P"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0051"
+mods = "Alt|Shift"
+key = "Q"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0052"
+mods = "Alt|Shift"
+key = "R"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0053"
+mods = "Alt|Shift"
+key = "S"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0054"
+mods = "Alt|Shift"
+key = "T"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0055"
+mods = "Alt|Shift"
+key = "U"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0056"
+mods = "Alt|Shift"
+key = "V"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0057"
+mods = "Alt|Shift"
+key = "W"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0058"
+mods = "Alt|Shift"
+key = "X"
+
+[[keyboard.bindings]]
+chars = "\u001b\u0059"
+mods = "Alt|Shift"
+key = "Y"
+
+[[keyboard.bindings]]
+chars = "\u001b\u005a"
+mods = "Alt|Shift"
+key = "Z"
+
+[[keyboard.bindings]]
+chars = "\u0001"
+mods = "Command"
+key = "A"
+
+[[keyboard.bindings]]
+chars = "\u0003"
+mods = "Command"
+key = "C"
+
+[[keyboard.bindings]]
+chars = "\u0004"
+mods = "Command"
+key = "D"
+
+[[keyboard.bindings]]
+chars = "\u0005"
+mods = "Command"
+key = "E"
+
+[[keyboard.bindings]]
+chars = "\u0006"
+mods = "Command"
+key = "F"
+
+[[keyboard.bindings]]
+chars = "\u0008"
+mods = "Command"
+key = "H"
+
+[[keyboard.bindings]]
+chars = "\u000a"
+mods = "Command"
+key = "J"
+
+[[keyboard.bindings]]
+chars = "\u000b"
+mods = "Command"
+key = "K"
+
+[[keyboard.bindings]]
+chars = "\u000c"
+mods = "Command"
+key = "L"
+
+[[keyboard.bindings]]
+chars = "\u000e"
+mods = "Command"
+key = "N"
+
+[[keyboard.bindings]]
+chars = "\u0010"
+mods = "Command"
+key = "P"
+
+[[keyboard.bindings]]
+action = "None"
+mods = "Command"
+key = "Q"
+
+[[keyboard.bindings]]
+chars = "\u0012"
+mods = "Command"
+key = "R"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+mods = "Command"
+key = "U"
+
+[[keyboard.bindings]]
+action = "Paste"
+mods = "Command"
+key = "V"
+
+[[keyboard.bindings]]
+chars = "\u0017"
+mods = "Command"
+key = "W"
+
+[[keyboard.bindings]]
+chars = "\u0018"
+mods = "Command"
+key = "X"
+
+[[keyboard.bindings]]
+chars = "\u0019"
+mods = "Command"
+key = "Y"
+
+[[keyboard.bindings]]
+chars = "\u001a"
+mods = "Command"
+key = "Z"
