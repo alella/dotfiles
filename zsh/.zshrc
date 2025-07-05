@@ -47,6 +47,22 @@ function cd_back(){
 	cd ..
 	echo "$PWD\n\n"
 }
+function t(){
+    # Check if the "general" tmux session exists
+    if tmux has-session -t general &> /dev/null; then
+        # If the session exists, attach to it
+        tmux attach -t general:monitors  # default window is "monitors"
+    else
+        tmux new -d -s general; # create this in the background
+        tmux new-window -t general -k -n "monitors"  # create "monitors" window and make it main
+        tmux send-keys -t general:monitors 'cd ~/github/monitors; poetry run python run.py' C-m;
+        
+        # Create notes window (original code unchanged)
+        tmux new-window -t general -n "notes"
+        tmux send-keys -t general:notes "cd ~/github/notes/quartz; npx quartz build --serve" C-m
+        tmux attach -t general:monitors ; # attach to the session
+    fi
+}
 zle -N cd_back
 bindkey "^j" cd_back
 # aliases
